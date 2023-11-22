@@ -1,20 +1,42 @@
 @import url('reset.css');
 
 .container {
+padding: 30px;
 }
 .container-box {
+    background: grey;
+    border: 4px solid #13a313;
 }
 .title {
+    text-align: center;
+    font-size: 30px;
 }
 .main-lorem {
+    color: red;
+    font-style: italic;
+    font-size: 22px;
 }
 .big-lorem {
+    color: green;
 }
 .small-lorem {
+    font-size: 10px;
+    margin: 40px;
+    color:rgb(23, 7, 80);
+    text-align: center;
 }
 .my-class {
+    text-align: right;
+    text-decoration: line-through;
+    margin-top: 50px;
 }
 
-div div {
+div div div {
     background: #973636;
+    padding: 10px;
+    border: 2px solid #000;
+}
+p + p {
+    text-align: center;
+    font-size: 22px;
 }
